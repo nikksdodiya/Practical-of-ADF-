@@ -1,0 +1,11 @@
+import 'package:flutter/material.dart'; void main()
+{
+runApp(MaterialApp( debugShowCheckedModeBanner:
+false, home: Scaffold( backgroundColor: Colors.white, appBar: AppBar(
+title: const Text("Practical 2"), backgroundColor: Colors.cyanAccent, foregroundColor: Colors.black,
+),
+body: Center( child: Text("Hello World! Welcome to Flutter Development")
+)
+),
+));
+}
